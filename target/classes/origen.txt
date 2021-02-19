@@ -1,0 +1,3 @@
+Un archivo es una colección de datos relacionada lógicamente, que se almacena en algún soporte físico (memoria, disco rígido…) para poder manipularla en cualquier momento. Son transmitidos como flujos de datos por el sistema.
+En el paquete java.io se encuentra la clase File pensada para poder realizar operaciones de información sobre archivos. No proporciona métodos de acceso a los archivos, sino operaciones a nivel de sistema de archivos (listado de archivos, crear carpetas, borrar archivos, cambiar nombre,...).
+La dificultad de este tipo de operaciones está en que los sistemas de archivos (File System) son distintos en cada sistema operativo y aunque JAVA intentar aislar la configuración específica, no consigue evitarlo del todo.
